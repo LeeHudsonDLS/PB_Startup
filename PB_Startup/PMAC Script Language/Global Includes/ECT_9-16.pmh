@@ -1,0 +1,91 @@
+//	SIMULATED OUTPUT FOR STEPPER MOTOR WITHOUT ENCODER
+//	MICROSTEPPING RESOLUTION IS DEFINE BY USTEPRESx
+
+#define UStepRes1 50
+#define UStepRes2 50
+#define UStepRes3 50
+#define UStepRes4 50
+#define UStepRes5 50
+#define UStepRes6 50
+#define UStepRes7 50
+#define UStepRes8 50
+
+EncTable[9].type = 11
+EncTable[9].pEnc = Motor[1].PhasePos.a
+EncTable[9].index1 = 5
+EncTable[9].index2 = 0
+EncTable[9].index3 = 0
+EncTable[9].index4 = 0
+EncTable[9].index5 = 255
+EncTable[9].index6 = 1
+EncTable[9].ScaleFactor = 1 / (256 * (EncTable[9].index5 + 1) * EXP2(EncTable[9].index1)) * UStepRes1/512
+
+EncTable[10].type = 11
+EncTable[10].pEnc = Motor[2].PhasePos.a
+EncTable[10].index1 = 5
+EncTable[10].index2 = 0
+EncTable[10].index3 = 0
+EncTable[10].index4 = 0
+EncTable[10].index5 = 255
+EncTable[10].index6 = 1
+EncTable[10].ScaleFactor = 1 / (256 * (EncTable[10].index5 + 1) * EXP2(EncTable[10].index1)) * UStepRes2/512
+
+EncTable[11].type = 11
+EncTable[11].pEnc = Motor[3].PhasePos.a
+EncTable[11].index1 = 5
+EncTable[11].index2 = 0
+EncTable[11].index3 = 0
+EncTable[11].index4 = 0
+EncTable[11].index5 = 255
+EncTable[11].index6 = 1
+EncTable[11].ScaleFactor = 1 / (256 * (EncTable[11].index5 + 1) * EXP2(EncTable[11].index1)) * UStepRes3/512
+
+EncTable[12].type = 11
+EncTable[12].pEnc = Motor[4].PhasePos.a
+EncTable[12].index1 = 5
+EncTable[12].index2 = 0
+EncTable[12].index3 = 0
+EncTable[12].index4 = 0
+EncTable[12].index5 = 255
+EncTable[12].index6 = 1
+EncTable[12].ScaleFactor = 1 / (256 * (EncTable[12].index5 + 1) * EXP2(EncTable[12].index1)) * UStepRes4/512
+
+EncTable[13].type = 11
+EncTable[13].pEnc = Motor[5].PhasePos.a
+EncTable[13].index1 = 5
+EncTable[13].index2 = 0
+EncTable[13].index3 = 0
+EncTable[13].index4 = 0
+EncTable[13].index5 = 255
+EncTable[13].index6 = 1
+EncTable[13].ScaleFactor = 1 / (256 * (EncTable[13].index5 + 1) * EXP2(EncTable[13].index1)) * UStepRes5/512
+
+EncTable[14].type = 11
+EncTable[14].pEnc = Motor[6].PhasePos.a
+EncTable[14].index1 = 5
+EncTable[14].index2 = 0
+EncTable[14].index3 = 0
+EncTable[14].index4 = 0
+EncTable[14].index5 = 255
+EncTable[14].index6 = 1
+EncTable[14].ScaleFactor = 1 / (256 * (EncTable[14].index5 + 1) * EXP2(EncTable[14].index1)) * UStepRes6/512
+
+EncTable[15].type = 11
+EncTable[15].pEnc = Motor[7].PhasePos.a
+EncTable[15].index1 = 5
+EncTable[15].index2 = 0
+EncTable[15].index3 = 0
+EncTable[15].index4 = 0
+EncTable[15].index5 = 255
+EncTable[15].index6 = 1
+EncTable[15].ScaleFactor = 1 / (256 * (EncTable[15].index5 + 1) * EXP2(EncTable[15].index1)) * UStepRes7/512
+
+EncTable[16].type = 11
+EncTable[16].pEnc = Motor[8].PhasePos.a
+EncTable[16].index1 = 5
+EncTable[16].index2 = 0
+EncTable[16].index3 = 0
+EncTable[16].index4 = 0
+EncTable[16].index5 = 255
+EncTable[16].index6 = 1
+EncTable[16].ScaleFactor = 1 / (256 * (EncTable[16].index5 + 1) * EXP2(EncTable[16].index1)) * UStepRes8/512

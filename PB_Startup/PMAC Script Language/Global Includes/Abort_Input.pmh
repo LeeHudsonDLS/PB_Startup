@@ -1,0 +1,3 @@
+//Sys.pAbortAll = Gate3[0].GpioData[0].a	//Use it when the 24V Abort Input is present
+Sys.pAbortAll = 0	//prevent closing the loop when the motor is enable
+// Use it when the 24V Abort Input is not wired

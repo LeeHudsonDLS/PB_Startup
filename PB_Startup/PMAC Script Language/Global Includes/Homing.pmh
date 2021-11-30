@@ -1,0 +1,43 @@
+// CAPTURE FLAG SETUP
+
+Sys.WpKey = $AAAAAAAA // Disable Write-Protection
+
+// AXIS 1
+Motor[1].HomeVel = Motor[1].JogSpeed / 2;
+PowerBrick[0].Chan[0].CaptCtrl = 1;
+PowerBrick[0].Chan[0].CaptFlagSel = 0;
+
+// AXIS 2
+Motor[2].HomeVel = Motor[2].JogSpeed / 2;
+PowerBrick[0].Chan[1].CaptCtrl = 1;
+PowerBrick[0].Chan[1].CaptFlagSel = 0;
+
+// AXIS 3
+Motor[3].HomeVel = Motor[3].JogSpeed / 2;
+PowerBrick[0].Chan[2].CaptCtrl = 1;
+PowerBrick[0].Chan[2].CaptFlagSel = 0;
+
+// AXIS 4
+Motor[4].HomeVel = Motor[4].JogSpeed / 2;
+PowerBrick[0].Chan[3].CaptCtrl = 1;
+PowerBrick[0].Chan[3].CaptFlagSel = 0;
+
+// AXIS 5
+Motor[5].HomeVel = Motor[5].JogSpeed / 2;
+PowerBrick[1].Chan[0].CaptCtrl = 1;
+PowerBrick[1].Chan[0].CaptFlagSel = 0;
+
+// AXIS 6
+Motor[6].HomeVel = Motor[6].JogSpeed / 2;
+PowerBrick[1].Chan[1].CaptCtrl = 1;
+PowerBrick[1].Chan[1].CaptFlagSel = 0;
+
+// AXIS 7
+Motor[7].HomeVel = Motor[7].JogSpeed / 2;
+PowerBrick[1].Chan[2].CaptCtrl = 1;
+PowerBrick[1].Chan[2].CaptFlagSel = 0;
+
+// AXIS 8
+Motor[8].HomeVel = Motor[8].JogSpeed / 2;
+PowerBrick[1].Chan[2].CaptCtrl = 1;
+PowerBrick[1].Chan[2].CaptFlagSel = 0;

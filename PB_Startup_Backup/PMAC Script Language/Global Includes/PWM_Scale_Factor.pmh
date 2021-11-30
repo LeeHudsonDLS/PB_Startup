@@ -1,0 +1,20 @@
+GLOBAL DcBusInput = 48; // DC Bus input voltage [VDC] –User Input
+
+GLOBAL Mtr1DCVoltage = 48; // Motor #1 DC rated voltage [VDC] –User Input
+GLOBAL Mtr2DCVoltage = 48; // Motor #2 DC rated voltage [VDC] –User Input
+GLOBAL Mtr3DCVoltage = 48; // Motor #3 DC rated voltage [VDC] –User Input
+GLOBAL Mtr4DCVoltage = 48; // Motor #4 DC rated voltage [VDC] –User Input
+GLOBAL Mtr5DCVoltage = 48; // Motor #5 DC rated voltage [VDC] –User Input
+GLOBAL Mtr6DCVoltage = 48; // Motor #6 DC rated voltage [VDC] –User Input
+GLOBAL Mtr7DCVoltage = 48; // Motor #7 DC rated voltage [VDC] –User Input
+GLOBAL Mtr8DCVoltage = 48; // Motor #8 DC rated voltage [VDC] –User Input
+
+Motor[1].PwmSf = (0.95 * 16384 * Mtr1DCVoltage / DcBusInput) * Mtr1Direction
+Motor[2].PwmSf = (0.95 * 16384 * Mtr2DCVoltage / DcBusInput) * Mtr2Direction
+Motor[3].PwmSf = (0.95 * 16384 * Mtr3DCVoltage / DcBusInput) * Mtr3Direction
+Motor[4].PwmSf = (0.95 * 16384 * Mtr4DCVoltage / DcBusInput) * Mtr4Direction
+Motor[5].PwmSf = (0.95 * 16384 * Mtr5DCVoltage / DcBusInput) * Mtr5Direction
+Motor[6].PwmSf = (0.95 * 16384 * Mtr6DCVoltage / DcBusInput) * Mtr6Direction
+Motor[7].PwmSf = (0.95 * 16384 * Mtr7DCVoltage / DcBusInput) * Mtr7Direction
+Motor[8].PwmSf = (0.95 * 16384 * Mtr8DCVoltage / DcBusInput) * Mtr8Direction
+

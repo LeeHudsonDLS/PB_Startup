@@ -1,0 +1,23 @@
+// ENCODER CHECK FUNCTIONALITY
+// 0: no error
+// 1: lost count (and latch until reset or cleared)
+PTR Enc1CountError->PowerBrick[0].Chan[0].CountError;
+PTR Enc2CountError->PowerBrick[0].Chan[1].CountError;
+PTR Enc3CountError->PowerBrick[0].Chan[2].CountError;
+PTR Enc4CountError->PowerBrick[0].Chan[3].CountError;
+PTR Enc5CountError->PowerBrick[1].Chan[0].CountError;
+PTR Enc6CountError->PowerBrick[1].Chan[1].CountError;
+PTR Enc7CountError->PowerBrick[1].Chan[2].CountError;
+PTR Enc8CountError->PowerBrick[1].Chan[3].CountError;
+
+// REPORING PRESENCE OF ENCODER
+// 0: normal
+// 1: loss (and latched) upon detecting an encoder loss
+PTR Enc1LossBit->PowerBrick[0].Chan[0].LossStatus;
+PTR Enc2LossBit->PowerBrick[0].Chan[1].LossStatus;
+PTR Enc3LossBit->PowerBrick[0].Chan[2].LossStatus;
+PTR Enc4LossBit->PowerBrick[0].Chan[3].LossStatus;
+PTR Enc5LossBit->PowerBrick[1].Chan[0].LossStatus;
+PTR Enc6LossBit->PowerBrick[1].Chan[1].LossStatus;
+PTR Enc7LossBit->PowerBrick[1].Chan[2].LossStatus;
+PTR Enc8LossBit->PowerBrick[1].Chan[3].LossStatus;

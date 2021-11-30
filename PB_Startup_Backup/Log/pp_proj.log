@@ -1,0 +1,72 @@
+[PMAC_HARDWARE]
+Gate1AutoDetect=0x0
+Gate2AutoDetect=0x0
+Gate3AutoDetect=0x3
+CardIOAutoDetect=0x0
+CardDPRAutoDetect=0x0
+[PMAC_CONFIG]
+// *** EOF 
+Successful Configuration using "/var/ftp/usrflash/Project/Configuration/pp_save.cfg"
+// *** EOF 
+Successful Custom Configuration using "/var/ftp/usrflash/Project/Configuration/pp_custom_save.cfg"
+[PMAC_PROJECT]
+Start of Project Loading using INI File: "/var/ftp/usrflash/Project/Configuration/pp_proj.ini"
+Including Project File: /var/ftp/usrflash/Project/Configuration/pp_disable.txt 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Clock.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Data_Unpacking.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/BrickLV_Struture_Element.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Abort_Input.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/ECT_1-8.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/ECT_9-16.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Motor_Direction.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Motor_Setup.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Limits.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/PWM_Scale_Factor.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Direct_Magnetization_Current.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Max_Cmd_Output.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Current_Tuning.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Monitoring_Encoder.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Homing.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Encoder_Check.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Libraries/poweronresetsub.pmc 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Libraries/timersub.pmc 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Motion Programs/prog1.pmc 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/PLC Programs/PowerOnReset.plc 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/PLC Programs/plc7.plc 
+Including Project File: /var/ftp/usrflash/Project/Configuration/pp_startup.txt 
+108 Project Symbols were created for gpascii -2 communication
+Status: Successful load of preprocessed File: "/var/ftp/usrflash/Temp/pp_proj.pma"
+[PMAC_PROJECT]
+Start of Project Loading using INI File: "/var/ftp/usrflash/Project/Configuration/pp_proj.ini"
+LoadRTUserCode() Delta Time (sec) = 0.098731
+Including Project File: /var/ftp/usrflash/Project/Configuration/pp_disable.txt 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Clock.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Data_Unpacking.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/BrickLV_Struture_Element.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Abort_Input.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/ECT_1-8.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/ECT_9-16.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Motor_Direction.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Motor_Setup.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Limits.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/PWM_Scale_Factor.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Direct_Magnetization_Current.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Max_Cmd_Output.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Current_Tuning.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Monitoring_Encoder.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Homing.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Global Includes/Encoder_Check.pmh 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Libraries/poweronresetsub.pmc 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Libraries/timersub.pmc 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/Motion Programs/prog1.pmc 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/PLC Programs/PowerOnReset.plc 
+Including Project File: /var/ftp/usrflash/Project/PMAC Script Language/PLC Programs/plc7.plc 
+Including Project File: /var/ftp/usrflash/Project/Configuration/pp_startup.txt 
+Status: Pass 1 Create debug file, #defines, *.h & .sym files, Time (sec) = 0.178009
+Status: Pass 2 Verify prog calls, local stack & labels, Time (sec)  = 0.008812
+108 Project Symbols were created for gpascii -2 communication
+Status: Create PPMAC Symbol Table & Run CPP Time (sec) = 0.508860
+Status: Successful load of preprocessed File: "/var/ftp/usrflash/Temp/pp_proj.pma"
+Status: Download to PPMAC Command Processor, Time (sec) = 0.013530
+Status: Final pp_proj.h & Run Background C Apps, Time (sec) = 1.292212
+Project Preprocessing & Load Total Time (sec) = 2.100653

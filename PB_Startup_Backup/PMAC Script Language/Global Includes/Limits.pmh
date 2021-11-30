@@ -1,0 +1,65 @@
+// LIMIT SWITCHES SETUP
+// 0 if no limit is used
+// Gate3[i].Chan[j].Status.a if limit is used
+
+Motor[1].pLimits = Gate3[0].Chan[0].Status.a
+Motor[2].pLimits = Gate3[0].Chan[1].Status.a
+Motor[3].pLimits = Gate3[0].Chan[2].Status.a
+Motor[4].pLimits = Gate3[0].Chan[3].Status.a
+
+Motor[5].pLimits = Gate3[1].Chan[0].Status.a
+Motor[6].pLimits = Gate3[1].Chan[1].Status.a
+Motor[7].pLimits = Gate3[1].Chan[2].Status.a
+Motor[8].pLimits = Gate3[1].Chan[3].Status.a
+
+
+// Channels 1 – 4 Limits and Flags Suggested Pointers
+PTR Ch1PlusLimit->PowerBrick[0].Chan[0].PlusLimit; // Channel 1 Positive Limit
+PTR Ch1MinusLimit->PowerBrick[0].Chan[0].MinusLimit; // Channel 1 Negative Limit
+PTR Ch1UserFlag->PowerBrick[0].Chan[0].UserFlag; // Channel 1 User Flag
+PTR Ch1HomeFlag->PowerBrick[0].Chan[0].HomeFlag; // Channel 1 Home Flag
+PTR Ch1EQU->PowerBrick[0].Chan[0].Equ; // Channel 1 EQU
+
+PTR Ch2PlusLimit->PowerBrick[0].Chan[1].PlusLimit; // Channel 2 Positive Limit
+PTR Ch2MinusLimit->PowerBrick[0].Chan[1].MinusLimit; // Channel 2 Negative Limit
+PTR Ch2UserFlag->PowerBrick[0].Chan[1].UserFlag; // Channel 2 User Flag
+PTR Ch2HomeFlag->PowerBrick[0].Chan[1].HomeFlag; // Channel 2 Home Flag
+PTR Ch2EQU->PowerBrick[0].Chan[1].Equ; // Channel 2 EQU
+
+PTR Ch3PlusLimit->PowerBrick[0].Chan[2].PlusLimit; // Channel 3 Positive Limit
+PTR Ch3MinusLimit->PowerBrick[0].Chan[2].MinusLimit; // Channel 3 Negative Limit
+PTR Ch3UserFlag->PowerBrick[0].Chan[2].UserFlag; // Channel 3 User Flag
+PTR Ch3HomeFlag->PowerBrick[0].Chan[2].HomeFlag; // Channel 3 Home Flag
+PTR Ch3EQU->PowerBrick[0].Chan[2].Equ; // Channel 3 EQU
+
+PTR Ch4PlusLimit->PowerBrick[0].Chan[3].PlusLimit; // Channel 4 Positive Limit
+PTR Ch4MinusLimit->PowerBrick[0].Chan[3].MinusLimit; // Channel 4 Negative Limit
+PTR Ch4UserFlag->PowerBrick[0].Chan[3].UserFlag; // Channel 4 User Flag
+PTR Ch4HomeFlag->PowerBrick[0].Chan[3].HomeFlag; // Channel 4 Home Flag
+PTR Ch4EQU->PowerBrick[0].Chan[3].Equ; // Channel 4 EQU
+
+//// Channels 5 – 8 Limits and Flags Suggested Pointers
+PTR Ch5PlusLimit->PowerBrick[1].Chan[0].PlusLimit; // Channel 5 Positive Limit
+PTR Ch5MinusLimit->PowerBrick[1].Chan[0].MinusLimit; // Channel 5 Negative Limit
+PTR Ch5UserFlag->PowerBrick[1].Chan[0].UserFlag; // Channel 5 User Flag
+PTR Ch5HomeFlag->PowerBrick[1].Chan[0].HomeFlag; // Channel 5 Home Flag
+PTR Ch5EQU->PowerBrick[1].Chan[0].Equ; // Channel 5 EQU
+
+PTR Ch6PlusLimit->PowerBrick[1].Chan[1].PlusLimit; // Channel 6 Positive Limit
+PTR Ch6MinusLimit->PowerBrick[1].Chan[1].MinusLimit; // Channel 6 Negative Limit
+PTR Ch6UserFlag->PowerBrick[1].Chan[1].UserFlag; // Channel 6 User Flag
+PTR Ch6HomeFlag->PowerBrick[1].Chan[1].HomeFlag; // Channel 6 Home Flag
+PTR Ch6EQU->PowerBrick[1].Chan[1].Equ; // Channel 6 EQU
+
+PTR Ch7PlusLimit->PowerBrick[1].Chan[2].PlusLimit; // Channel 7 Positive Limit
+PTR Ch7MinusLimit->PowerBrick[1].Chan[2].MinusLimit; // Channel 7 Negative Limit
+PTR Ch7UserFlag->PowerBrick[1].Chan[2].UserFlag; // Channel 7 User Flag
+PTR Ch7HomeFlag->PowerBrick[1].Chan[2].HomeFlag; // Channel 7 Home Flag
+PTR Ch7EQU->PowerBrick[1].Chan[2].Equ; // Channel 7 EQU
+
+PTR Ch8PlusLimit->PowerBrick[1].Chan[3].PlusLimit; // Channel 8 Positive Limit
+PTR Ch8MinusLimit->PowerBrick[1].Chan[3].MinusLimit; // Channel 8 Negative Limit
+PTR Ch8UserFlag->PowerBrick[1].Chan[3].UserFlag; // Channel 8 User Flag
+PTR Ch8HomeFlag->PowerBrick[1].Chan[3].HomeFlag; // Channel 8 Home Flag
+PTR Ch8EQU->PowerBrick[1].Chan[3].Equ; // Channel 8 EQU
+

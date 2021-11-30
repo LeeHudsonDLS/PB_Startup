@@ -1,0 +1,26 @@
+//	BRICKLV STRUCTURE ELEMENT SETUP
+
+//	0 FOR BRUSHLESS / BRUSH MOTOR (DEFAULT)
+//	1 FOR STEPPER MOTOR, DIRECT MICRO-STEPPING
+BrickLV.Chan[0].TwoPhaseMode = 1
+BrickLV.Chan[1].TwoPhaseMode = 1
+BrickLV.Chan[2].TwoPhaseMode = 1
+BrickLV.Chan[3].TwoPhaseMode = 1
+
+BrickLV.Chan[4].TwoPhaseMode = 1
+BrickLV.Chan[5].TwoPhaseMode = 1
+BrickLV.Chan[6].TwoPhaseMode = 1
+BrickLV.Chan[7].TwoPhaseMode = 1
+
+
+//	0	KILL MOTOR, DISPLAY FAULT (DEFAULT)
+//	1	DON'T KILL MOTOR, REPORT WARNING TO THE STATUS REGISTER
+BrickLV.Chan[0].I2tWarnOnly = 0
+BrickLV.Chan[1].I2tWarnOnly = 0
+BrickLV.Chan[2].I2tWarnOnly = 0
+BrickLV.Chan[3].I2tWarnOnly = 0
+
+BrickLV.Chan[4].I2tWarnOnly = 0
+BrickLV.Chan[5].I2tWarnOnly = 0
+BrickLV.Chan[6].I2tWarnOnly = 0
+BrickLV.Chan[7].I2tWarnOnly = 0

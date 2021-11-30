@@ -1,0 +1,9 @@
+// Change motor direction by switch 1 or -1
+global Mtr1Direction = 1;
+global Mtr2Direction = 1;
+global Mtr3Direction = 1;
+global Mtr4Direction = 1;
+global Mtr5Direction = 1;
+global Mtr6Direction = 1;
+global Mtr7Direction = 1;
+global Mtr8Direction = 1;

@@ -1,0 +1,57 @@
+// INCREMENTAL ENCODER READBACK FROM CHANNEL 1-8
+
+EncTable[1].type = 1	// Single-register read
+EncTable[1].pEnc = PowerBrick[0].Chan[0].ServoCapt.a	// Source Address
+EncTable[1].index1 = 0	// No left shift
+EncTable[1].index2 = 0	// No right shift
+EncTable[1].ScaleFactor = 1/256		// Scale output in whole counts
+Gate3[0].Chan[0].EncCtrl = 7
+
+EncTable[2].type = 1	// Single-register read
+EncTable[2].pEnc = PowerBrick[0].Chan[1].ServoCapt.a	// Source Address
+EncTable[2].index1 = 0	// No left shift
+EncTable[2].index2 = 0	// No right shift
+EncTable[2].ScaleFactor = 1/256		// Scale output in whole counts
+Gate3[0].Chan[1].EncCtrl = 7
+
+EncTable[3].type = 1	// Single-register read
+EncTable[3].pEnc = PowerBrick[0].Chan[2].ServoCapt.a	// Source Address
+EncTable[3].index1 = 0	// No left shift
+EncTable[3].index2 = 0	// No right shift
+EncTable[3].ScaleFactor = 1/256		// Scale output in whole counts
+Gate3[0].Chan[2].EncCtrl = 7
+
+EncTable[4].type = 1	// Single-register read
+EncTable[4].pEnc = PowerBrick[0].Chan[3].ServoCapt.a	// Source Address
+EncTable[4].index1 = 0	// No left shift
+EncTable[4].index2 = 0	// No right shift
+EncTable[4].ScaleFactor = 1/256		// Scale output in whole counts
+Gate3[0].Chan[3].EncCtrl = 7
+
+EncTable[5].type = 1	// Single-register read
+EncTable[5].pEnc = PowerBrick[1].Chan[0].ServoCapt.a	// Source Address
+EncTable[5].index1 = 0	// No left shift
+EncTable[5].index2 = 0	// No right shift
+EncTable[5].ScaleFactor = 1/256		// Scale output in whole counts
+Gate3[1].Chan[0].EncCtrl = 7
+
+EncTable[6].type = 1	// Single-register read
+EncTable[6].pEnc = PowerBrick[1].Chan[1].ServoCapt.a	// Source Address
+EncTable[6].index1 = 0	// No left shift
+EncTable[6].index2 = 0	// No right shift
+EncTable[6].ScaleFactor = 1/256		// Scale output in whole counts
+Gate3[1].Chan[1].EncCtrl = 7
+
+EncTable[7].type = 1	// Single-register read
+EncTable[7].pEnc = PowerBrick[1].Chan[2].ServoCapt.a	// Source Address
+EncTable[7].index1 = 0	// No left shift
+EncTable[7].index2 = 0	// No right shift
+EncTable[7].ScaleFactor = 1/256		// Scale output in whole counts
+Gate3[1].Chan[2].EncCtrl = 7
+
+EncTable[8].type = 1	// Single-register read
+EncTable[8].pEnc = PowerBrick[1].Chan[3].ServoCapt.a	// Source Address
+EncTable[8].index1 = 0	// No left shift
+EncTable[8].index2 = 0	// No right shift
+EncTable[8].ScaleFactor = 1/256		// Scale output in whole counts
+Gate3[1].Chan[3].EncCtrl = 7

@@ -1,0 +1,12 @@
+// SETIING CURRENT TO MOTOR PHASES
+
+Motor[1].IdCmd = 1000
+Motor[2].IdCmd = 1000
+Motor[3].IdCmd = 1000
+Motor[4].IdCmd = 1000
+
+Motor[5].IdCmd = 1000
+Motor[6].IdCmd = 1000
+Motor[7].IdCmd = 1000
+Motor[8].IdCmd = 1000
+

@@ -1,0 +1,3 @@
+SUBPROGPowerOnResetSub	SUBPROG	PowerOnResetSub	100000
+SUBPROGTimer	SUBPROG	Timer	100001
+PLCPowerOnResetPLC	PLC	PowerOnResetPLC	1

@@ -1,0 +1,76 @@
+// PLC 7 is used to disable the motor after stopping
+// The Delay Time is set in "Timer_axis_x" parameter in second
+// 
+/****************************************/
+
+// Define Kill Timer for each axis
+global Timer_axis_1 = 5;
+global Timer_axis_2 = 5;
+global Timer_axis_3 = 5;
+global Timer_axis_4 = 5;
+global Timer_axis_5 = 5;
+global Timer_axis_6 = 5;
+global Timer_axis_7 = 5;
+global Timer_axis_8 = 5;
+
+open plc 7 
+// --------------------User Code Goes Here------------------------
+
+// Motor 1
+if (Motor[1].AmpEna == 1 && Motor[1].InPos == 1 && Motor[1].DesVelZero == 1)
+{
+	call Timer(Timer_axis_1);
+	kill1;
+}
+
+// Motor 2
+if (Motor[2].AmpEna == 1 && Motor[2].InPos == 1 && Motor[2].DesVelZero == 1)
+{
+	call Timer(Timer_axis_2);
+	kill2;
+}
+
+// Motor 3
+if (Motor[3].AmpEna == 1 && Motor[3].InPos == 1 && Motor[3].DesVelZero == 1)
+{
+	call Timer(Timer_axis_3);
+	kill3;
+}
+
+// Motor 4
+if (Motor[4].AmpEna == 1 && Motor[4].InPos == 1 && Motor[4].DesVelZero == 1)
+{
+	call Timer(Timer_axis_4);
+	kill4;
+}
+
+// Motor 5
+if (Motor[5].AmpEna == 1 && Motor[5].InPos == 1 && Motor[5].DesVelZero == 1)
+{
+	call Timer(Timer_axis_5);
+	kill5;
+}
+
+// Motor 6
+if (Motor[6].AmpEna == 1 && Motor[6].InPos == 1 && Motor[6].DesVelZero == 1)
+{
+	call Timer(Timer_axis_6);
+	kill6;
+}
+
+// Motor 7
+if (Motor[7].AmpEna == 1 && Motor[7].InPos == 1 && Motor[7].DesVelZero == 1)
+{
+	call Timer(Timer_axis_7);
+	kill7;
+}
+
+// Motor 8
+if (Motor[8].AmpEna == 1 && Motor[8].InPos == 1 && Motor[8].DesVelZero == 1)
+{
+	call Timer(Timer_axis_8);
+	kill8;
+}
+
+close
+/****************************************/

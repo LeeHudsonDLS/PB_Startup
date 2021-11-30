@@ -1,0 +1,31 @@
+Motor[9].pEnc = EncTable[1].a;
+Motor[9].pEnc2 = EncTable[1].a;
+Motor[9].ServoCtrl = 1;
+
+Motor[10].pEnc = EncTable[2].a;
+Motor[10].pEnc2 = EncTable[2].a;
+Motor[10].ServoCtrl = 1;
+
+Motor[11].pEnc = EncTable[3].a;
+Motor[11].pEnc2 = EncTable[3].a;
+Motor[11].ServoCtrl = 1;
+
+Motor[12].pEnc = EncTable[4].a;
+Motor[12].pEnc2 = EncTable[4].a;
+Motor[12].ServoCtrl = 1;
+
+Motor[13].pEnc = EncTable[5].a;
+Motor[13].pEnc2 = EncTable[5].a;
+Motor[13].ServoCtrl = 1;
+
+Motor[14].pEnc = EncTable[6].a;
+Motor[14].pEnc2 = EncTable[6].a;
+Motor[14].ServoCtrl = 1;
+
+Motor[15].pEnc = EncTable[7].a;
+Motor[15].pEnc2 = EncTable[7].a;
+Motor[15].ServoCtrl = 1;
+
+Motor[16].pEnc = EncTable[8].a;
+Motor[16].pEnc2 = EncTable[8].a;
+Motor[16].ServoCtrl = 1;

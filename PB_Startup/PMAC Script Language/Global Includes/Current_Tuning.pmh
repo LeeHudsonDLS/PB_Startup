@@ -1,0 +1,25 @@
+// CURRENT TUNING SET
+
+Motor[1].IiGain = 0.7;
+Motor[1].IpbGain = 12;
+
+Motor[2].IiGain = 0.7;
+Motor[2].IpbGain = 12;
+
+Motor[3].IiGain = 0.7;
+Motor[3].IpbGain = 12;
+
+Motor[4].IiGain = 0.7;
+Motor[4].IpbGain = 12;
+
+Motor[5].IiGain = 0.7;
+Motor[5].IpbGain = 12;
+
+Motor[6].IiGain = 0.7;
+Motor[6].IpbGain = 12;
+
+Motor[7].IiGain = 0.7;
+Motor[7].IpbGain = 12;
+
+Motor[8].IiGain = 0.7;
+Motor[8].IpbGain = 12;

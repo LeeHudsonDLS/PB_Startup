@@ -1,0 +1,34 @@
+// OUTPUT COMMAND LIMIT
+
+#define Mtr1MaxRpm 600 // Motor Maximum Speed [RPM] --User Input
+#define Mtr1StepAngle 1.8 // Motor Step Angle [degrees] --User Input
+Motor[1].MaxDac = Mtr1MaxRpm / 60000 * (360 / (4 * Mtr1StepAngle)) * 2048 * Sys.ServoPeriod
+ 
+#define Mtr2MaxRpm 600 // Motor Maximum Speed [RPM] --User Input
+#define Mtr2StepAngle 1.8 // Motor Step Angle [degrees] --User Input
+Motor[2].MaxDac = Mtr2MaxRpm / 60000 * (360 / (4 * Mtr2StepAngle)) * 2048 * Sys.ServoPeriod
+ 
+#define Mtr3MaxRpm 600 // Motor Maximum Speed [RPM] --User Input
+#define Mtr3StepAngle 1.8 // Motor Step Angle [degrees] --User Input
+Motor[3].MaxDac = Mtr3MaxRpm / 60000 * (360 / (4 * Mtr3StepAngle)) * 2048 * Sys.ServoPeriod
+ 
+#define Mtr4MaxRpm 600 // Motor Maximum Speed [RPM] --User Input
+#define Mtr4StepAngle 1.8 // Motor Step Angle [degrees] --User Input
+Motor[4].MaxDac = Mtr4MaxRpm / 60000 * (360 / (4 * Mtr4StepAngle)) * 2048 * Sys.ServoPeriod
+ 
+#define Mtr5MaxRpm 600 // Motor Maximum Speed [RPM] --User Input
+#define Mtr5StepAngle 1.8 // Motor Step Angle [degrees] --User Input
+Motor[5].MaxDac = Mtr5MaxRpm / 60000 * (360 / (4 * Mtr5StepAngle)) * 2048 * Sys.ServoPeriod
+ 
+#define Mtr6MaxRpm 600 // Motor Maximum Speed [RPM] --User Input
+#define Mtr6StepAngle 1.8 // Motor Step Angle [degrees] --User Input
+Motor[6].MaxDac = Mtr6MaxRpm / 60000 * (360 / (4 * Mtr6StepAngle)) * 2048 * Sys.ServoPeriod
+ 
+#define Mtr7MaxRpm 600 // Motor Maximum Speed [RPM] --User Input
+#define Mtr7StepAngle 1.8 // Motor Step Angle [degrees] --User Input
+Motor[7].MaxDac = Mtr7MaxRpm / 60000 * (360 / (4 * Mtr7StepAngle)) * 2048 * Sys.ServoPeriod
+ 
+#define Mtr8MaxRpm 600 // Motor Maximum Speed [RPM] --User Input
+#define Mtr8StepAngle 1.8 // Motor Step Angle [degrees] --User Input
+Motor[8].MaxDac = Mtr8MaxRpm / 60000 * (360 / (4 * Mtr8StepAngle)) * 2048 * Sys.ServoPeriod
+
